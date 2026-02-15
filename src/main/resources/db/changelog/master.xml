@@ -4,7 +4,7 @@
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
 
-    <include file="changes/001-initial-schema.xml" relativeToChangelogFile="true"/>
-    <include file="changes/002-add-user-email.xml" relativeToChangelogFile="true"/>
+    <include file="changes/20260203-001-initial-schema.sql" relativeToChangelogFile="true"/>
+    <include file="changes/20260205-002-add-email-to-users.sql" relativeToChangelogFile="true"/>
 
 </databaseChangeLog>

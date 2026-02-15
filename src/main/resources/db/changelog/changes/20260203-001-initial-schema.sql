@@ -1,6 +1,6 @@
 --liquibase formatted sql
 
---changeset dml:1
+--changeset Sabir:20260203-001-initial-schema
 --comment: Master changelog entry point
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,

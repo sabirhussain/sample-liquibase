@@ -1,6 +1,6 @@
 --liquibase formatted sql
 
---changeset dml:2
+--changeset Sabir:20260205-002-add-email-to-users
 --comment: Add column email to users table
 ALTER TABLE users
 ADD COLUMN email VARCHAR(255);

@@ -70,5 +70,5 @@ mvn liquibase:rollback -Dliquibase.rollbackCount=1
 
 #### Rollback to a specific tag
 ```bash
-mvn liquibase:rollback -Dliquibase.tag=your-tag-name
+mvn liquibase:rollback -Dliquibase.rollbackTag=your-tag-name
 ```
